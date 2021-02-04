@@ -200,6 +200,9 @@ select {
   list-style: none;
 }
 
+
+
+
 #eyecatch {
   height: 600px;
   background: url(../img/eyecatch.jpg) no-repeat;
@@ -208,7 +211,7 @@ select {
   position: relative;
 }
 
-#eyecatch p {
+#eyecatch > p {
   position: absolute;
   top: 55%;
   left: 10%;
@@ -219,32 +222,48 @@ select {
   line-height: 1;
 }
 
-#eyecatch-right {
-  width: 600px;
-  height: 30px;
-  padding: 20px;
-  text-align: left;
-  background-color: #fff;
-  color: #000000;
+.news-text-wrap {
+  width: 450px; 
+  height: 40px; 
+  background-color: white;
+  display: inline-flex;
+  align-items: left;
+  flex-direction: column;
 }
 
-.date,
+.date {
+  width: 117px;
+  height: 20px; 
+  font-size: 14px; 
+  color: #000;
+}
+
 .text {
-  margin: 0;
+  width: 378px;
+  height: 16px;
+  font-size: 15px;
+  color: #000;
 }
 
-.text {
-  padding: 10px 0;
-  font-size: small;
+.news-box {
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
-.news {
-  width: 200px;
-  height: 30px;
-  padding: 10px;
+.news-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 147px;
+  height: 40px;
   text-align: center;
+  font-size: 15px;
   background-color: black;
+  color: #fff;
 }
+
 
 .box1 {
   width: 100%;
