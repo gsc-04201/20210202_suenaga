@@ -167,7 +167,7 @@ select {
   vertical-align: middle;
 }
 
-/* その他のスタイルは以下に記述していきます */
+/* その他のスタイルは以下に記述していきます                                              */
 
 .header {
   display: flex;
@@ -204,7 +204,7 @@ select {
 
 
 #eyecatch {
-  height: 600px;
+  height: 700px;
   background: url(../img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -267,17 +267,17 @@ select {
 
 .top-under {
   width: 100%; 
-  height: 600px; 
+  height: 550px; 
   position: relative;
   background-color: #000;
 }
 
 .orange img {
-  width: 566px;
-  height: 378px;
+  width: 550px;
+  height: 360px;
   position: absolute;
   right: 5%; 
-  top: -240%; 
+  bottom: 20%; 
 }
 
 .top-under-empty-box {
@@ -288,44 +288,471 @@ select {
   background-color: white;
 }
 
+
 .main-box {
-  width:auto;
-  height: 378px;
-  background-color: black; 
+  width: 1020px;
+  height: 300px;
+  margin-top: 100px;
+  background-color: transparent;
   display: inline-flex; 
   flex-direction: row; 
   align-items: center; 
   justify-content: flex-start;
-  opacity: 0.1;
 }
-  padding-top: 94px; 
-  padding-bottom: 94px; 
-  padding-left: 274px; 
-  padding-right: 434px; 
-  width: 800px; 
-  height: 456px; 
-  left: 0px; top: 0px; 
+
+.main-text-box {
+  padding-top: 41px; 
+  padding-bottom: 48px; 
+  padding-left: 73px; 
+  padding-right: 40px; 
+  margin-left: 300px;
+  width: 886px; 
+  height: 268px; 
+  background-color: rgba(196, 196, 196, 0); 
+  display: inline-flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: flex-start;
+  position: relative;
+  
+}
+
+.main-text1 {
+  width: 545px; 
+  height: 49px; 
+  font-size: 23px; 
+  color: white;
+}
+
+.main-text2 {
+  width: 773px; 
+  height: 87px; 
+  font-size: 12px; 
+  line-height: 20px; 
+  color: white;
+}
+
+.mission-box {
+  padding-left: 10px; 
+  padding-right: 10px; 
+  padding-top: 5px; 
+  padding-bottom: 6px; 
+  margin-top:30px;
+  width: 133px; 
+  height: 39px; 
+  background-color: white; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.mission-text {
+  width: 115px; 
+  height: 30px; 
+  padding-bottom: 10px;
+  font-size: 15px; 
+  line-height: 3; 
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.center {
+  width: 100%; 
+  height: 1368px; 
+  background-color: #e5e4e4;
+  position: relative;
+}
+
+.service {
+  width: 238px; 
+  height: 50px; 
+  font-size: 36px; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+  color: black;
+}
+
+.camera {
+  text-align: right;
+}
+
+.center-text-box {
+  width: 595px; 
+  height: 294px; 
+  background-color: white; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.center-text {
+  width: 475px; 
+  height: 150px; 
+  display: inline-flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: flex-end;
+}
+
+.center-text1 {
+  width: 114px; 
+  height: 24px; 
+  font-size: 14px; 
+  line-height: 20px; 
+  text-align: left; 
+  color: black;
+}
+
+
+.center-text2 {
+  width: 164px; 
+  height: 28px; 
+  font-size: 13px; 
+  line-height: 20px; 
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.center-text3 {
+  width: 475px; 
+  height: 40px; 
+  font-size: 12px; 
+  line-height: 20px; 
+  text-align: left; 
+  color: black;
+}
+
+.service-text-box {
+  padding-left: 4px; 
+  padding-right: 4px; 
+  padding-top: 6px; 
+  padding-bottom: 6px; 
+  width: 140px; 
+  height: 37px; 
+  background-color: white; 
+  border: 1px solid black; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: right;
+  margin: 0 0 0 auto;
+  margin-right: 40px;
+}
+
+.service-text {
+  width: 126px; 
+  height: 25px; 
+  font-size: 12px; 
+  line-height: 20px; 
+  text-align: center; 
+  color: black;
+}
+
+
+.center-text-box2 {
+  width: 595px; 
+  height: 294px; 
+  background-color: white; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  
+}
+
+.center-text2 {
+  width: 475px; 
+  height: 150px; 
+  display: inline-flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: flex-end;
+}
+
+.center-text2-1 {
+  width: 114px; 
+  height: 24px; 
+  font-size: 14px; 
+  line-height: 20px; 
+  text-align: left; 
+  color: black;
+}
+
+.center-text2-2 {
+  width: 164px; 
+  height: 28px; 
+  font-size: 13px; 
+  line-height: 20px; 
+  text-align: left;
+  color: black;
+}
+
+.center-text2-3 {
+  width: 475px; 
+  height: 40px; 
+  font-size: 12px; 
+  line-height: 20px; 
+  text-align: left; 
+  color: black;
+}
+
+.service-text-box2 {
+  padding-left: 4px; 
+  padding-right: 4px; 
+  padding-top: 6px; 
+  padding-bottom: 6px; 
+  width: 140px; 
+  height: 37px; 
+  background-color: white; 
+  border: 1px solid black; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: right;
+  margin: 0 0 0 auto;
+  margin-right: 40px;
+}
+
+.service-text2-1 {
+  width: 126px; 
+  height: 25px; 
+  font-size: 12px; 
+  line-height: 20px; 
+  text-align: center; 
+  color: black;
+}
+
+.under {
+  width: 100%; 
+  height: 784px; 
+  background-color: white; 
+  position: relative;
+}
+
+.picture-box {
+  width: 100%; 
+  height: 250px; 
+  margin-top: 10%; 
+  position: relative; 
+  display: inline-flex; 
+  flex-direction: row; 
+  align-items:center; 
+  justify-content:space-around;
+}
+  
+.text-company-box {
+  width: 400px; 
+  height: 200px; 
+  flex-direction: column; 
+  background-color: transparent; 
+  justify-content: center;
+  align-items: center; 
+  display: flex; 
+  position:absolute;
+  top: 10%;
+  left: 10%;
+}
+
+
+.text-company {
+  width: 192px; 
+  height: 36px; 
+  font-size: 36px; 
+  text-align: center; 
+  line-height: 15px; 
+  color: white;
+}
+
+
+.text-company2 {
+  width: 96px; 
+  height: 19px; 
+  font-size: 14px; 
+  text-align: center; 
+  line-height: 15px; 
+  color: white;
+}
+
+.text-recruit-box {
+  width: 400px; 
+  height: 200px; 
+  flex-direction: column; 
+  background-color: transparent; 
+  justify-content: center;
+  align-items: center; 
+  display: flex; 
+  position:absolute;
+  top: 10%;
+  right: 10%;
+}
+
+
+.text-recruit {
+  width: 192px; 
+  height: 36px; 
+  font-size: 36px; 
+  text-align: center; 
+  line-height: 15px; 
+  color: white;
+}
+
+
+.text-recruit2 {
+  width: 96px; 
+  height: 19px; 
+  font-size: 14px; 
+  text-align: center; 
+  line-height: 15px; 
+  color: white;
+}
+
+/* ここから */
+.FAQ-box {
+  padding-top: 8px; 
+  padding-bottom: 9px; 
+  padding: right 5px; 
+  width: 150; 
+  height: 100px; 
+  background-color: black; 
+  display: flex; 
+  flex-direction:row; 
+  align-items:center; 
+  justify-content:space-around; 
+  margin: 130px; 
+  position:relative; 
+}
+
+.FAQ {
+  width: auto; 
+  height: 36px; 
+  font-size: 36px; 
+  line-height: 1; 
+  text-align: center; 
+  color: white; 
+  margin-left: 50px;
+}
+
+.question {
+  width: 200px; 
+  height: 33px; 
+  font-size: 17px; 
+  line-height: 1; 
+  text-align: center; 
+  color: white; 
+  margin-right: 480px; 
+  margin-top:15px;
+}
+
+.contact-box {
+  width: 100%; 
+  height: 517px; 
+  background-color: white; 
+  position: relative; 
+  background: url(../img/contact-bg.jpg) no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.contact-text-box {
+  width: 1000px; 
+  height: 435px; 
+  left: 15%; 
+  top: 20%; 
   position: absolute; 
+  background-color: parents; 
+  display: inline-flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: flex-start;
+}
 
+.contact-text-1 {
+  width: 145px; 
+  height: 43px; 
+  font-size: 36px; 
+  line-height: 15px; 
+  text-align: center; 
+  color: white;
+}
 
+.contact-text-2 {
+  width: 151px; 
+  height: 33px; 
+  font-size: 18px; 
+  line-height: 15px; 
+  text-align: center; 
+  color: white;
+}
 
+.contact-text-3 {
+  width: 490px; 
+  height: 54px; 
+  font-size: 30px; 
+  line-height: 15px; 
+  text-align: center; 
+  color: white;
+}
 
+.contact-text-4 {
+  width: 959px; 
+  height: 43px; 
+  font-size: 12px; 
+  line-height: 15px; 
+  text-align: center; 
+  color: white;
+}
 
+.contact-btn-box {
+  padding-left: 14px; 
+  padding-right: 14px; 
+  padding-top: 1px; 
+  padding-bottom: 1px; 
+  width: 130px; 
+  height: 34px; 
+  background-color: parents; 
+  border: 1px solid white; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+}
 
-
-
+.contact-btn-text {
+  width: 102px; 
+  height: 32px; 
+  font-size: 12px; 
+  line-height: 15px; 
+  text-align: center; 
+  color: white; 
+  margin-top: 15px;
+}
 
 p {
   color: #ccc;
 }
 .link {
-  padding: 5px 20px; /* 上下に5px、左右に20px */
+  padding: 5px 20px; 
   font-size: 14px;
   color: #d7ba7b;
-  text-decoration: none; /* テキストのスタイルを消す */
-  border: 1px #d7ba7b solid; /* 境界線を引く */
-  border-radius: 3px; /* 要素の角を丸くする */
-  transition: 0.4s ease; /* スタイルが変化する時間 */
+  text-decoration: none; 
+  border: 1px #d7ba7b solid;
+  border-radius: 3px; 
+  transition: 0.4s ease; 
 }
 
 .link:hover {
@@ -364,3 +791,68 @@ p {
   font-size: 12px;
   color: #000;
 }
+
+.footer-sub {
+  width: 100%; 
+  height: 40px; 
+  background-color: black; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.footer-sub-text {
+  width: 373px; 
+  height: 30px; 
+  font-size: 14px; 
+  line-height: 15px; 
+  text-align: center; 
+  color: white;
+}
+
+
+/* 外枠ここから*/
+html:before,
+html:after,
+body:before,
+body:after {
+  content: "";
+  background: #000000;
+  position: fixed;
+  display: inline-block;
+  z-index: 1;
+}
+/* 上 */
+html:before {
+  height: 0; 
+  width: 100vw;
+  left: 0;
+  top: 0;
+}
+
+/* 右 */
+html:after {
+  width: 200px;
+  height: 100vh;
+  right: 0;
+  top: 0;
+}
+
+/* 下 */
+body:before {
+  height: 10px;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+}
+
+/* 左 */
+body:after {
+  width: 200px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+/* 外枠ここまで */
