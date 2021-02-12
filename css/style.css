@@ -353,11 +353,11 @@ a {
 
 .center-box {
   width: 100%;
-  height: 1400px;
+  height: 1200px;
   background-color: rgba(229.5, 227.59, 227.59, 1);
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
+  display: inline-flex; 
+  flex-direction: column; 
+  align-items: center; 
   justify-content: flex-end;
   position: relative;
 }
@@ -374,66 +374,61 @@ a {
 }
 
 .camera-left-box {
-  width: 600px;
-  height: 350px;
+  width: 45%;
+  height: 230px;
   background-color: white;
-  display: inline-flex;
+  text-align: left;
   position: absolute;
-  top: 10%;
+  top: 11%;
   right: 40%;
 }
 
 .camera-left-text {
-  width: 300px;
-  height: 130px;
+  width: auto;
   display: inline-flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items:flex-start;
   background-color: white;
-  padding: 100px;
+  margin: 5% 20%;
 }
 
 .camera-text {
-  width: 110px;
-  height: 20px;
+  width: 100%;
+  height: auto;
   font-size: 14px;
-  text-align: left;
   color: black;
   margin: 20px 0 10px 0;
 }
 
 .camera-text2 {
-  width: 164px;
-  height: 15.14px;
+  width: 100%;
+  height: auto;
   font-size: 12px;
   line-height: 20px;
-  text-align: left;
   color: black;
   margin-bottom: 10px;
 }
 
 .camera-text3 {
-  width: 430px;
-  height: 35px;
+  width: 100%;
+  height: auto;
   font-size: 10px;
   line-height: 20px;
-  text-align: left;
   color: black;
 }
 
 .survice-btn1 {
-  width: 100px;
-  height: 24px;
-  background-color: white;
-  border: 1px solid black;
-  margin-left: 86%;
-  margin-top: 10px;
-  justify-content: right;
+  width: 20%;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 72%;
 }
 
 .survice-btn-text1 {
   width: 100px;
   height: 24px;
+  background-color: white;
+  border: 1px solid black;
   font-size: 10px;
   line-height: 20px;
   text-align: center;
@@ -441,66 +436,63 @@ a {
 }
 
 .fire-right-box {
-  width: 600px;
-  height: 350px;
+  width: 45%;
+  height: 230px;
   background-color: white;
-  display: inline-flex;
+  text-align: left;
   position: absolute;
-  top: 63%;
-  right: 22%;
+  bottom: 21%;
+  /* top: 65%; */
+  left: 40%;
 }
 
 .fire-right-text {
-  width: 300px;
-  height: 130px;
+  width: auto;
   display: inline-flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items:flex-start;
   background-color: white;
-  padding: 100px;
+  margin: 5% 20%;
 }
 
 .fire-text {
-  width: 110px;
-  height: 20px;
+  width: 100%;
+  height: auto;
   font-size: 14px;
-  text-align: left;
   color: black;
   margin: 20px 0 10px 0;
 }
 
 .fire-text2 {
-  width: 164px;
-  height: 15.14px;
+  width: 100%;
+  height: auto;
   font-size: 12px;
   line-height: 20px;
-  text-align: left;
   color: black;
   margin-bottom: 10px;
 }
 
 .fire-text3 {
-  width: 430px;
-  height: 35px;
+  width: 100%;
+  height: auto;
   font-size: 10px;
   line-height: 20px;
-  text-align: left;
   color: black;
 }
 
 .survice-btn2 {
-  width: 100px;
-  height: 24px;
-  background-color: white;
-  border: 1px solid black;
-  margin-left: 86%;
-  margin-top: 10px;
-  justify-content: right;
+  width: 20%;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 72%;
+
 }
 
 .survice-btn-text2 {
   width: 100px;
   height: 24px;
+  background-color: white;
+  border: 1px solid black;
   font-size: 10px;
   line-height: 20px;
   text-align: center;
@@ -518,32 +510,31 @@ a {
   width: 100%;
   height: 250px;
   margin-top: 8%;
-  position: relative;
+  position: absolute;
+  top: 10%;
   display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  text-align:center;
+  justify-content:space-between;
 }
 
 .text-company-box {
-  width: 400px;
+  width: 50%;
   height: 200px;
   flex-direction: column;
   background-color: transparent;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
+  text-align: center;
   display: flex;
   position: absolute;
-  top: 10%;
-  left: 10%;
+  left: 0%;
+  line-height: 15px;
 }
 
 .text-company {
   width: 192px;
   height: 36px;
   font-size: 24px;
-  text-align: center;
-  line-height: 15px;
   color: white;
 }
 
@@ -551,13 +542,11 @@ a {
   width: 96px;
   height: 19px;
   font-size: 14px;
-  text-align: center;
-  line-height: 15px;
   color: white;
 }
 
 .text-recruit-box {
-  width: 400px;
+  width: 50%;
   height: 200px;
   flex-direction: column;
   background-color: transparent;
@@ -565,8 +554,8 @@ a {
   align-items: center;
   display: flex;
   position: absolute;
-  top: 10%;
-  right: 10%;
+  right: 0%;
+  line-height: 15px;
 }
 
 .text-recruit {
@@ -588,39 +577,32 @@ a {
 }
 
 .FAQ-box {
-  width: 1100px;
+  width: 80%;
   height: 90px;
   background-color: black;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 50px;
-  position: relative;
-  left: 12%;
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
 }
 
 .FAQ {
-  width: auto;
-  height: 36px;
+  width: 10%;
+  height: auto;
   font-size: 24px;
-  line-height: 1;
-  text-align: center;
+  line-height: 4;
   color: white;
-  margin-left: 10px;
-  margin-top: 10px;
-  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .question {
-  width: 120px;
-  height: 33px;
+  width: 77%;
+  height: auto;
   font-size: 12px;
-  line-height: 1;
-  text-align: center;
+  line-height: 3;
   color: white;
-  margin-right: 475px;
-  margin-top: 20px;
 }
 
 .contact-box {
@@ -777,6 +759,7 @@ html:after,
 body:before,
 body:after {
   content: "";
+  left: 0;
   background: #000000;
   position: fixed;
   display: inline-block;
@@ -803,7 +786,6 @@ body:before {
   height: 0px;
   width: 100vw;
   bottom: 0;
-  left: 0;
 }
 
 /* 左 */
@@ -813,5 +795,4 @@ body:after {
   top: 0;
   left: 0;
 }
- */
 /* 外枠ここまで
